@@ -36,4 +36,3 @@ get back on termux and write: adb connect localhost:5555 </br>
 now you should be able to see your device ID in adb devices </br>
 when I start the bot it looks like it freezes after opening IG and termux shell has been closed </br>
 edit your accounts/yourusername/config.yml file and set close-apps: false </br>
-All credits to patbengr </br>
