@@ -25,18 +25,3 @@ pip install -r requirements.txt </br>
 <h1>Step 4: Run </h1> </br>
 python -m uiautomator2 init </br>
 python run.py </br>
-
-<h1>-How can I access termux files?</h1> </br>
-Read that article https://wiki.termux.com/wiki/Internal_and_external_storage </br>
-
--The easiest solution is to download an storage access framework compatible file manager like FX File Explorer Then you can follow that instructions https://wiki.termux.com/images/e/e5/FX_Termux_Home.jpg Then you can edit and view GramAddict files.
-</br>
-<h1>Troubleshooting</h1></br>
-if you type on termux adb devices and you get a blank list try the following:</br>
-connect the phone to a PC and get sure you get your device ID in adb devices (from pc console) </br>
-adb tcpip 5555 </br>
-adb kill-server and disconnect the cable </br>
-get back on termux and write: adb connect localhost:5555 </br>
-now you should be able to see your device ID in adb devices </br>
-when I start the bot it looks like it freezes after opening IG and termux shell has been closed </br>
-edit your accounts/yourusername/config.yml file and set close-apps: false </br>
