@@ -11,21 +11,18 @@ curl -LO https://its-pointless.github.io/setup-pointless-repo.sh </br>
 bash setup-pointless-repo.sh </br>
 pkg install android-tools python build-essential cmake libjpeg-turbo libpng libxml2 libxslt freetype git -y </br>
 pip install wheel </br>
-Copy to clipboardErrorCopiedCopy to clipboardErrorCopied </br>
 <h1>Step 3: Install instagramBot</h1> </br>
-This procedure is slow, use -vvv in pip if you want to see if everything installing alright</br>
+<h3></h3>This procedure is slow, use -vvv in pip if you want to see if everything installing alright</h3></br>
 
 git clone https://github.com/Danny-1201/instagramBot.git</br>
 cd instagramBot </br>
 pip install -r requirements.txt </br>
-Copy to clipboardErrorCopiedCopy to clipboardErrorCopied </br>
-You can also install GramAddict using pip, but in that case you won’t have the config-example folder ready to go.</br>
 
 <h1>Step 4: Run </h1> </br>
 python -m uiautomator2 init </br>
 python run.py </br>
-Copy to clipboardErrorCopiedCopy to clipboardErrorCopied </br>
--How can I access termux files? </br>
+
+<h1>-How can I access termux files?</h1> </br>
 Read that article https://wiki.termux.com/wiki/Internal_and_external_storage </br>
 
 -The easiest solution is to download an storage access framework compatible file manager like FX File Explorer Then you can follow that instructions https://wiki.termux.com/images/e/e5/FX_Termux_Home.jpg Then you can edit and view GramAddict files.
