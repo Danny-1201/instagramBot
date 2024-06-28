@@ -1,3 +1,7 @@
+<h1 style ="color: red;"> It looks as much human as possible</h1>
+<h1>Hi Carlos</h1></br>
+  please follow these 4 steps to run instagram bot!
+</h1>
 <h1>Step 1: </h1> </br>
 Download and Install Termux<br>
 Apk from f-droid </br>
