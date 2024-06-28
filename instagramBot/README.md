@@ -1,7 +1,7 @@
 Step 1: Download and Install Termux
 Apk from f-droid or Official PlayStore
 
-Step 2: Install required packages
+Step 2: Install required packages </br>
 pkg upgrade -y
 curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
